@@ -2,6 +2,7 @@
 
     <!-- These settings headers are only used on tablets. -->
 
+    <!--
     <header
         android:fragment="com.luzi82.screenstream.screenstream.MainActivity$GeneralPreferenceFragment"
         android:icon="@drawable/ic_info_black_24dp"
@@ -16,5 +17,9 @@
         android:fragment="com.luzi82.screenstream.screenstream.MainActivity$DataSyncPreferenceFragment"
         android:icon="@drawable/ic_sync_black_24dp"
         android:title="@string/pref_header_data_sync" />
+    -->
+    <header
+        android:fragment="com.luzi82.screenstream.screenstream.MainActivity$MainFragment"
+        android:title="main" />
 
 </preference-headers>
